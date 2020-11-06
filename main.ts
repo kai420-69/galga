@@ -48,7 +48,7 @@ spaceplane = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
 spaceplane.setFlag(SpriteFlag.StayInScreen, true)
-info.setLife(3)
+info.setLife(5)
 controller.moveSprite(spaceplane, 200, 200)
 game.onUpdateInterval(500, function () {
     villan = sprites.create(img`
